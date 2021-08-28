@@ -1,26 +1,39 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import React, { useState } from 'react';
+import Nav from "./components/Nav";
 
 function App() {
+
+  const [pages] = useState([
+    {
+      name: "about"
+    },
+    {
+      name: "portfolio"
+    },
+    {
+      name: "contact"
+    },
+    {
+      name: "resume"
+    }
+  ]);
+
+  const [currentPage, setCurrentPage] = useState(pages[0]);
+
   return (
     <div className="App">
       <header className="App-header">
-        <nav>
-
-        </nav>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1 className="m-0 py-3">Brad Smith's React Portfolio</h1>
+        <Nav
+          pages={pages}
+          setCurrentPage={setCurrentPage}
+          currentPage={currentPage}
+        ></Nav>
       </header>
+
+
       <main>
 
       </main>
