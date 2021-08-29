@@ -78,12 +78,12 @@ function Contact() {
         </div>
 
         {errorMessage && (
-          <div className="text-center">
+          <div>
             <p className="mx-auto error-text">{errorMessage}</p>
           </div>
         )}
 
-        <div className="text-center">
+        <div>
           <button className="col-sm-2" type="submit">Submit</button>
         </div>
       </form>
