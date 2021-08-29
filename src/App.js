@@ -1,7 +1,9 @@
 // import logo from './logo.svg';
-import './App.css';
 import React, { useState } from 'react';
 import Nav from "./components/Nav";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Page from "./components/Page"
 
 function App() {
 
@@ -24,22 +26,19 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <h1 className="m-0 py-3">Brad Smith's React Portfolio</h1>
+      <Header>
         <Nav
           pages={pages}
           setCurrentPage={setCurrentPage}
           currentPage={currentPage}
         ></Nav>
-      </header>
+      </Header>
 
 
       <main>
-
+      <Page currentPage={currentPage}></Page>
       </main>
-      <footer>
-
-      </footer>
+      <Footer />
     </div>
   );
 }
