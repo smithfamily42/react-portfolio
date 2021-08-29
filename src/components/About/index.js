@@ -1,20 +1,25 @@
 import React from 'react';
+import Profile from "../../assets/images/profilePic.jpg";
 
 function About() {
   return (
-    <section className="px-5 my-5">
-      <div className="my-2">
-        <div className="profile-img my-5">
-        <i className="fas fa-user-circle" style={{ fontSize: "96px" }}></i>
+    <>
+      <section className="px-5 my-5 container">
+        <div className="my-2 row">
+          <div className="mx-auto my-2 col-lg-4 col-md-4 col-sm-8">
+            <img
+              src={Profile}
+              alt="Brad Smith Profile Pic" className="img-fluid"
+            />
+          </div>
+          <p>
+            I am a blossoming full-stack web developer with experience and a passion for learning and growing. I am seeking a full-stack web role that allows me to showcase my diverse, well-rounded skill set.        </p>
+          <p>
+            I provide technical oriented solutions for customers and internal clients while promoting satisfaction and achieving organizational goals. I deliver clean, functional software with memorable results that exceed
+            expectations.</p>
         </div>
-        <p>
-        Helvetica put a bird on it church-key Blue Bottle banjo bespoke brunch Etsy authentic Marfa quinoa typewriter plaid direct trade small batch wayfarers bicycle rights cliche craft beer gastropub single-origin coffee Godard Carles you probably haven't heard of them irony pickled kitsch synth sriracha gentrify literally heirloom blog Truffaut paleo scenester
-        </p>
-        <p>
-        Echo Park sriracha Pinterest vegan biodiesel 90's irony iPhone Kickstarter Carles crucifix kitsch narwhal dreamcatcher pickled trust fund selvage art party letterpress Tumblr post-ironic kogi Thundercats Tonx Brooklyn Pitchfork Odd Future authentic normcore freegan leggings Schlitz chambray organic tousled retro fap squid street art church-key fashion axe Wes Anderson bespoke whatever gentrify banh mi you probably haven't heard of them American Apparel next level pug ugh.
-        </p>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }
 

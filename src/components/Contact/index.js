@@ -42,40 +42,50 @@ function Contact() {
 
   return (
     <section>
-      <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input
-            type="text"
-            name="name"
-            defaultValue={name}
-            onBlur={handleChange}
-          />
+      <form id="contact-form" className="m-auto" onSubmit={handleSubmit}>
+        <div className="row mb-3">
+          <label className="col-sm-2 col-form-label" htmlFor="name">Name:</label>
+          <div className="col-sm-8">
+            <input
+              type="text"
+              name="name"
+              defaultValue={name}
+              onBlur={handleChange}
+            />
+          </div>
         </div>
-        <div>
-          <label htmlFor="email">Email address:</label>
-          <input
-            type="email"
-            name="email"
-            defaultValue={email}
-            onBlur={handleChange}
-          />
+        <div className="row mb-3">
+          <label className="col-sm-2 col-form-label" htmlFor="email">Email address:</label>
+          <div class="col-sm-10">
+            <input
+              type="email"
+              name="email"
+              defaultValue={email}
+              onBlur={handleChange}
+            />
+          </div>
         </div>
-        <div>
-          <label htmlFor="message">Message:</label>
-          <textarea
-            name="message"
-            rows="5"
-            defaultValue={message}
-            onBlur={handleChange}
-          />
+        <div className="row mb-3">
+          <label className="col-sm-2 col-form-label" htmlFor="message">Message:</label>
+          <div class="col-sm-10">
+            <textarea
+              name="message"
+              rows="5"
+              defaultValue={message}
+              onBlur={handleChange}
+            />
+          </div>
         </div>
+
         {errorMessage && (
-          <div>
-            <p className="error-text">{errorMessage}</p>
+          <div className="text-center">
+            <p className="mx-auto error-text">{errorMessage}</p>
           </div>
         )}
-        <button type="submit">Submit</button>
+
+        <div className="text-center">
+          <button className="col-sm-2" type="submit">Submit</button>
+        </div>
       </form>
     </section>
   );

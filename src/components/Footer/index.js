@@ -19,7 +19,7 @@ function Footer() {
   ]
 
   return (
-    <footer className="flex-row justify-content-between p-2">
+    <footer className="flex-row justify-content-between text-center p-2">
       <p className="d-inline px-5">&copy; 2021 Brad Smith</p>
       {icons.map(icon =>
       (

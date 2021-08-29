@@ -35,11 +35,17 @@ function Portfolio() {
       link: "https://smithfamily42.github.io/first-portfolio/",
       repo: "https://github.com/smithfamily42/first-portfolio"
     },
+    {
+      name: 'techBlog',
+      description: 'Model View Controller Tech Blog',
+      link: "https://bradtechblog.herokuapp.com",
+      repo: "https://github.com/smithfamily42/mvcTechBlog"
+    },
   ]);
 
   return (
-    <div>
-      <div className="flex-row">
+    <div className="container">
+      <div className="row row-cols-1 row-cols-md-2 g-4">
         {projects.map((project, idx) => (
           <Project
             project={project}
