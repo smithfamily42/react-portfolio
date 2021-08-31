@@ -4,7 +4,7 @@ Update portfolio with more relevant technologies
 ## Description:
 React app with updated skills and resume
 
-##Motivation for development?
+## Motivation for development?
 
 I wanted to demonstrate some of my more recently aquired skills. I will continue to update this portfolio.
 
