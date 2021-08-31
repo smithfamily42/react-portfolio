@@ -29,7 +29,7 @@ Github Repo: https://github.com/smithfamily42/react-portfolio
 deployed app: https://smithfamily42.github.io/react-portfolio/
 
 
-![](2021-08-29-07-24-51.png)
+![](2021-08-30-23-50-11.png)
 
 ## Future Development
 Adding animations React-reveal
