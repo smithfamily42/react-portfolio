@@ -20,7 +20,7 @@ function Footer() {
 
   return (
     <footer className="flex-row justify-content-between text-center p-2">
-      <p className="d-inline px-5">&copy; 2021 <a href="mailto:smitthfamily42@gmail.com">Brad Smith</a></p>
+      <p className="d-inline px-5">&copy; 2021 <a href="mailto:smithfamily42@gmail.com">Brad Smith</a></p>
       {icons.map(icon =>
       (
         <a className="mx-5 fs-2" href={icon.link} key={icon.name} target="_blank" rel="noopener noreferrer"><i className={icon.name}></i></a>

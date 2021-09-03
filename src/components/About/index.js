@@ -20,6 +20,7 @@ function About() {
           <p>My commitment to growth and development has positioned me to help employers with my new skills and this helps
             me maintain high levels of motivation and be an impactful contributor. I thrive with front end technologies (HTML, CSS)
             and leading my team with MySQL and modeling in MVC. Furthermore, I am versed in React, MongoDB, and GraphQL.</p>
+          <p>You can reach me by email: <a href="mailto:smithfamily42@gmail.com">smithfamily42@gmail.com</a></p>
         </div>
     </section>
     </>
