@@ -5,7 +5,7 @@ function Resume() {
     <section className="my-5">
       <div className="my-2">
       <p>
-        Download my <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1goZNdQS_e_JEWpZD3FhfPqiBXCrZSGZn/view?usp=sharing">resume</a>
+        Download my <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1xZhFwt3velly2CgupSPHGnp_HIcHvJI7/view?usp=sharing">resume</a>
         </p>
         <h3>Front-end Skills</h3>
         <ul className="skills">
